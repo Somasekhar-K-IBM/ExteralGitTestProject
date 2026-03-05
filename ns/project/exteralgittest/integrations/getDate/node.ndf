@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">wmiointadmin</value>
-    <value name="createdDate">1772723726889</value>
-    <value name="lastModifiedDate">1772723726889</value>
+    <value name="lastModifiedBy">wmiointadmin</value>
+    <value name="lastModifiedDate">1772723744231</value>
     <value name="displayName">getDate</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -60,10 +59,13 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">getCurrentDateString</value>
-          <value name="serviceName">pub.date:getCurrentDateString</value>
           <value name="transformerSupport">true</value>
+          <value name="displayName">currentNanoTime</value>
+          <value name="serviceName">pub.date:currentNanoTime</value>
+          <Boolean name="enabled">true</Boolean>
         </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
